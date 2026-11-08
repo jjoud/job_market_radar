@@ -1,0 +1,350 @@
+{
+  "passed": true,
+  "generated_at": "2026-10-31T21:07:27+00:00",
+  "source": {
+    "location": "C:\\Users\\Joud1\\Desktop\\job-market-radar\\data\\raw\\data-job-postings.csv",
+    "file_name": "data-job-postings.csv",
+    "file_size_bytes": "405403",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "sha256": "ad3b6f36c13c17da0967e52556d4cba6e1b9a93849c16c7315c936f106141b3e"
+  },
+  "row_counts": {
+    "raw_rows": 3500,
+    "cleaned_rows": 3500,
+    "rejected_rows": 0,
+    "distinct_titles": 40,
+    "distinct_role_families": 8
+  },
+  "rejection_reasons": {
+    "missing_posting_id": 0,
+    "missing_title": 0,
+    "exact_duplicate": 0,
+    "duplicate_posting_id_conflicting_content": 0
+  },
+  "duplicates": {
+    "exact_duplicate_rows": 0,
+    "duplicate_posting_ids_conflicting": 0,
+    "duplicate_skills_within_posting": 0
+  },
+  "missing_values_raw": {
+    "posting_id": 0,
+    "posted_on": 0,
+    "title": 0,
+    "seniority": 0,
+    "city": 0,
+    "country": 0,
+    "remote": 0,
+    "salary_min_usd": 762,
+    "salary_max_usd": 762,
+    "company_size": 0,
+    "skills": 0
+  },
+  "missing_values_processed": {
+    "posting_id": 0,
+    "posted_on": 0,
+    "title_raw": 0,
+    "title": 0,
+    "role_family": 0,
+    "seniority": 0,
+    "city": 0,
+    "country": 0,
+    "work_arrangement": 0,
+    "company_size": 0,
+    "salary_min_usd": 762,
+    "salary_max_usd": 762,
+    "salary_currency": 0,
+    "salary_quality_flag": 0
+  },
+  "salary_quality": {
+    "ok": 2738,
+    "missing": 762,
+    "partial": 0,
+    "invalid_value": 0,
+    "invalid_range": 0
+  },
+  "date_quality": {
+    "posted_on_min": "2023-01-01",
+    "posted_on_max": "2025-09-27",
+    "posted_on_missing": 0,
+    "posted_on_invalid_set_null": 0
+  },
+  "skills": {
+    "skill_tokens_total": 15550,
+    "skill_tokens_empty": 0,
+    "skill_tokens_duplicate_in_posting": 0,
+    "skill_tokens_resolved_by_alias": 0,
+    "job_skill_pairs": 15550,
+    "unique_skills": 25,
+    "postings_without_skills": 0
+  },
+  "role_families": {
+    "Data Analyst": 924,
+    "Data Engineer": 707,
+    "Data Scientist": 547,
+    "Analytics Engineer": 443,
+    "Machine Learning Engineer": 304,
+    "BI Developer": 267,
+    "Data Platform Engineer": 211,
+    "Research Scientist": 97
+  },
+  "title_mapping": [
+    {
+      "title": "Senior Analytics Engineer",
+      "role_family": "Analytics Engineer",
+      "postings": 136
+    },
+    {
+      "title": "Analytics Engineer",
+      "role_family": "Analytics Engineer",
+      "postings": 131
+    },
+    {
+      "title": "Junior Analytics Engineer",
+      "role_family": "Analytics Engineer",
+      "postings": 99
+    },
+    {
+      "title": "Staff Analytics Engineer",
+      "role_family": "Analytics Engineer",
+      "postings": 54
+    },
+    {
+      "title": "Lead Analytics Engineer",
+      "role_family": "Analytics Engineer",
+      "postings": 23
+    },
+    {
+      "title": "BI Developer",
+      "role_family": "BI Developer",
+      "postings": 85
+    },
+    {
+      "title": "Senior BI Developer",
+      "role_family": "BI Developer",
+      "postings": 75
+    },
+    {
+      "title": "Junior BI Developer",
+      "role_family": "BI Developer",
+      "postings": 56
+    },
+    {
+      "title": "Staff BI Developer",
+      "role_family": "BI Developer",
+      "postings": 33
+    },
+    {
+      "title": "Lead BI Developer",
+      "role_family": "BI Developer",
+      "postings": 18
+    },
+    {
+      "title": "Data Analyst",
+      "role_family": "Data Analyst",
+      "postings": 307
+    },
+    {
+      "title": "Senior Data Analyst",
+      "role_family": "Data Analyst",
+      "postings": 270
+    },
+    {
+      "title": "Junior Data Analyst",
+      "role_family": "Data Analyst",
+      "postings": 206
+    },
+    {
+      "title": "Staff Data Analyst",
+      "role_family": "Data Analyst",
+      "postings": 84
+    },
+    {
+      "title": "Lead Data Analyst",
+      "role_family": "Data Analyst",
+      "postings": 57
+    },
+    {
+      "title": "Data Engineer",
+      "role_family": "Data Engineer",
+      "postings": 252
+    },
+    {
+      "title": "Senior Data Engineer",
+      "role_family": "Data Engineer",
+      "postings": 198
+    },
+    {
+      "title": "Junior Data Engineer",
+      "role_family": "Data Engineer",
+      "postings": 144
+    },
+    {
+      "title": "Staff Data Engineer",
+      "role_family": "Data Engineer",
+      "postings": 61
+    },
+    {
+      "title": "Lead Data Engineer",
+      "role_family": "Data Engineer",
+      "postings": 52
+    },
+    {
+      "title": "Data Platform Engineer",
+      "role_family": "Data Platform Engineer",
+      "postings": 72
+    },
+    {
+      "title": "Junior Data Platform Engineer",
+      "role_family": "Data Platform Engineer",
+      "postings": 49
+    },
+    {
+      "title": "Senior Data Platform Engineer",
+      "role_family": "Data Platform Engineer",
+      "postings": 49
+    },
+    {
+      "title": "Staff Data Platform Engineer",
+      "role_family": "Data Platform Engineer",
+      "postings": 25
+    },
+    {
+      "title": "Lead Data Platform Engineer",
+      "role_family": "Data Platform Engineer",
+      "postings": 16
+    },
+    {
+      "title": "Data Scientist",
+      "role_family": "Data Scientist",
+      "postings": 182
+    },
+    {
+      "title": "Senior Data Scientist",
+      "role_family": "Data Scientist",
+      "postings": 169
+    },
+    {
+      "title": "Junior Data Scientist",
+      "role_family": "Data Scientist",
+      "postings": 118
+    },
+    {
+      "title": "Staff Data Scientist",
+      "role_family": "Data Scientist",
+      "postings": 42
+    },
+    {
+      "title": "Lead Data Scientist",
+      "role_family": "Data Scientist",
+      "postings": 36
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "role_family": "Machine Learning Engineer",
+      "postings": 107
+    },
+    {
+      "title": "Junior Machine Learning Engineer",
+      "role_family": "Machine Learning Engineer",
+      "postings": 68
+    },
+    {
+      "title": "Senior Machine Learning Engineer",
+      "role_family": "Machine Learning Engineer",
+      "postings": 68
+    },
+    {
+      "title": "Staff Machine Learning Engineer",
+      "role_family": "Machine Learning Engineer",
+      "postings": 31
+    },
+    {
+      "title": "Lead Machine Learning Engineer",
+      "role_family": "Machine Learning Engineer",
+      "postings": 30
+    },
+    {
+      "title": "Research Scientist",
+      "role_family": "Research Scientist",
+      "postings": 34
+    },
+    {
+      "title": "Junior Research Scientist",
+      "role_family": "Research Scientist",
+      "postings": 24
+    },
+    {
+      "title": "Senior Research Scientist",
+      "role_family": "Research Scientist",
+      "postings": 19
+    },
+    {
+      "title": "Lead Research Scientist",
+      "role_family": "Research Scientist",
+      "postings": 11
+    },
+    {
+      "title": "Staff Research Scientist",
+      "role_family": "Research Scientist",
+      "postings": 9
+    }
+  ],
+  "validation": [
+    {
+      "stage": "source",
+      "passed": true,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": [
+        {
+          "check": "missing_values",
+          "severity": "info",
+          "message": "salary_min_usd is empty (762 rows)",
+          "affected_rows": 762,
+          "sample_ids": [
+            "J72672",
+            "J71263",
+            "J72365",
+            "J72692",
+            "J73313"
+          ]
+        },
+        {
+          "check": "missing_values",
+          "severity": "info",
+          "message": "salary_max_usd is empty (762 rows)",
+          "affected_rows": 762,
+          "sample_ids": [
+            "J72672",
+            "J71263",
+            "J72365",
+            "J72692",
+            "J73313"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "transformed",
+      "passed": true,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": [
+        {
+          "check": "salary_missing",
+          "severity": "info",
+          "message": "Postings without salary (kept as NULL, not 0) (762 rows)",
+          "affected_rows": 762,
+          "sample_ids": [
+            "J72672",
+            "J71263",
+            "J72365",
+            "J72692",
+            "J73313"
+          ]
+        }
+      ]
+    }
+  ]
+}

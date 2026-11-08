@@ -1,0 +1,35 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Editors / OS
+.vscode/*
+!.vscode/settings.json
+.idea/
+Thumbs.db
+.DS_Store
+
+# Data: keep folder structure, not generated/raw files.
+# The raw dataset is not committed; see README for how to obtain it.
+data/raw/*
+data/staging/*
+data/processed/*
+!data/**/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Power BI local cache
+dashboard/*.pbix.bak

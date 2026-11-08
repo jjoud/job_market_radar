@@ -1,0 +1,9 @@
+# Runtime dependencies
+pandas>=2.2,<3
+numpy>=1.26,<3
+SQLAlchemy>=2.0,<3
+psycopg2-binary>=2.9,<3
+python-dotenv>=1.0,<2
+
+# Development / testing
+pytest>=8.0,<9

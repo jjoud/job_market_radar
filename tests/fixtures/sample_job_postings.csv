@@ -1,0 +1,6 @@
+posting_id,posted_on,title,seniority,city,country,remote,salary_min_usd,salary_max_usd,company_size,skills
+T00001,2024-01-05,Data Analyst,mid,New York,US,remote,70000,95000,enterprise,sql|excel|tableau
+T00002,2024-01-06,Senior Data Engineer,senior,Berlin,DE,hybrid,,,scaleup,python|spark|airflow|sql
+T00003,2024-01-07,Analytics Engineer,mid,São Paulo,BR,onsite,40000,55000,startup,dbt|sql|snowflake
+T00004,2024-01-08,  Junior Data Analyst ,junior,London,GB,remote,45000,60000,midmarket,sql| Python |power bi
+T00005,2024-01-09,Machine Learning Engineer,mid,Bengaluru,IN,hybrid,30000,42000,enterprise,"python|pytorch,aws"
